@@ -7,9 +7,6 @@ function writeCards(namesArray, eventName) {
     return cards;
 }
 
-writeCards(names, 'birthday');
-
-
 function countdown(number) {
     while (number > 0) {
         console.log(number);
