@@ -2,9 +2,9 @@
 function writeCards(namesArray, eventName) {
     let cards = [];
     for (let i = 0; i < namesArray.length; i++ ) {
-        console.log(`Thank you, ${namesArray[i]}, for the wonderful ${eventName} gift!`);
+        cards.push(`Thank you, ${namesArray[i]}, for the wonderful ${eventName} gift!`);
     }
-    return cards
+    return cards;
 }
 
 writeCards(names, 'birthday');
